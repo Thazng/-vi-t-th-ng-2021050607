@@ -5,11 +5,11 @@ public class Main {
       Tour a = new Tour();
       a.SetTour();
       a.getTour();
-      System.out.print("daylathue: day la bai cua tran thai" +   a.getTax()); 
+      System.out.print(" day la bai cua do viet thang " +   a.getTax()); 
       NoTaxTour b = new NoTaxTour();
       b.SetTour();
       b.getTour();
-     System.out.print("cuatranthaithue: day la bai cua tran thai " +   b.getTax()); 
+     System.out.print(" day la bai cua do viet thang " +   b.getTax()); 
     }
  
 }
